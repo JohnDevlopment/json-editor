@@ -1,0 +1,1 @@
+/home/john/Godot_projects/JSONEditorPlugin/README.md
