@@ -56,7 +56,6 @@ func _go_to_tab(idx: int) -> void:
 	c = tab_container.get_current_tab_control()
 	
 	if c is TextEdit:
-		$EditorPanel/Editor/FileSplit/VBoxContainer/CurrentFileLabel.text = c.name
 		if is_visible_in_tree():
 			c.ensure_focus()
 	

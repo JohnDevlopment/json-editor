@@ -70,15 +70,9 @@ align = 1
 [node name="FileList" type="ItemList" parent="EditorPanel/Editor/FileSplit/VBoxContainer"]
 margin_top = 18.0
 margin_right = 150.0
-margin_bottom = 530.0
+margin_bottom = 548.0
 rect_min_size = Vector2( 150, 60 )
 size_flags_vertical = 3
-
-[node name="CurrentFileLabel" type="Label" parent="EditorPanel/Editor/FileSplit/VBoxContainer"]
-margin_top = 534.0
-margin_right = 150.0
-margin_bottom = 548.0
-text = "[Current File]"
 
 [node name="TabContainer" type="TabContainer" parent="EditorPanel/Editor/FileSplit"]
 margin_left = 162.0
